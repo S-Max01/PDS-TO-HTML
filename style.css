@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+.clearfix {
+    clear: both;
+}
+
+header {
+    background-image: url(img/bg1.png);
+    background-size: cover;
+    width: 100%;
+    height: 946px;
+}
+
+.menu-container {
+    display: flex;
+   
+}
+
+.logo {
+    
+    width: 20%;
+    margin-top: 46px;
+    margin-left: 75px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.logo img {
+    width: 69px;
+    height: 62px;
+}
+
+.logo h1 {
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    color: white;
+}
+
+
+ul {
+    
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+
+}
+
+ul li {
+    margin: 0 2rem;
+
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-menu {
+    margin-right: 15px;
+}
+
+/*end logo*/
+/*start content1*/
+.container-text {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.conetent-text {
+    margin-top: 185px;
+    
+    float: left;
+}
+
+.text1 {
+    font-size: 30px;
+    color: white;
+}
+
+.text2 {
+    padding-top: 30px;
+    font-size: 35px;
+    color: white;
+}
+
+.text3 {
+    padding-top: 30px;
+    color: white;
+}
+
+.botton-menu {
+    margin-top: 70px;
+    
+
+}
+
+
+.bt-main1 {
+    border-radius: 60px;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(244, 34, 103);
+    text-align: center;
+    padding-top: 20px;
+    float: left;
+    justify-content: center;
+
+}
+
+.bt-main1 h3 {
+    color: white;
+
+}
+
+.bt-main1 a {
+    text-decoration: none;
+}
+
+.bt-main2 {
+    border-radius: 60px;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(101, 50, 141);
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 25px;
+    justify-content: center;
+    float: left;
+}
+
+.bt-main2 h3 {
+    color: white;
+
+}
+
+.bt-main2 a {
+    text-decoration: none;
+}
+
+.human-pic1 {
+    width: 846px;
+    height: 782px;
+    float: right;
+    position: relative;
+    bottom: 629px;
+    right: 180px;
+
+}
+/*end header*/
+/*start nav*/
+
+
+nav{
+    background-image: url(img/bg2.png);
+    background-size: cover;
+    width: 100%;
+    height: 842px;
+}
+.container-text2{
+    width: 1200px;
+    margin: 0 auto;
+}
+.content-text2{
+   padding-top: 102px;
+   
+  
+}
+.content-text2 h2{
+       font-size: 17.42px;
+       font-style: oblique;
+       font-family:  Arial, Helvetica,times, serif;
+}
+.content-text2 h1{
+    font-size: 50.02px;
+    font-style:  normal;
+    font-weight: bold;
+    font-family:  bold ;
+}
+.botton{
+    margin-top: 30px;
+    padding:  10px 15px;
+    font-style: 'Montserrat', semibold;
+    display: flex;
+    margin: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    border: 0.0px solid white;
+    border-radius: 25px;
+    outline: none;
+    transition: .4s;
+}
+.botton .botton a{
+    text-decoration: none;
+    color:black;
+}
+.botton :focus{
+    color:white;
+    background-color: rgb(244, 34, 103);
+    box-shadow: 0px 0px 0px 1px rgb(244, 34, 103);
+    animation: anim-shadow .3s forwards;
+}
+@keyframes  anim-shadow{
+    10%{
+        box-shadow: 0px 0px 50px 20px rgb(244, 34, 103);
+    }
+}
+.bt-content{
+    background-color: rgb(244, 34, 103);
+    width: 149px;
+    height: 49px;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 13px;
+    box-shadow: 0px 0px 0px 1px rgb(238, 94, 142);
+    animation: anim-box .3s forwards;
+}
+@keyframes  anim-box{
+    50%{
+        box-shadow: 0px 0px 10px 20px rgb(233, 169, 191);
+    }
+}
+
+.bt-content h3{
+    color: white;
+    text-decoration: none;
+}
+.bt-content  a{
+    text-decoration: none;
+    
+}
+.watch-pic2{
+   position: relative;
+   left: 1000px;
+   bottom: 450px;
+}
+.content-footer-nav{
+    background-image: url(img/bg3.png);
+    background-size: cover;
+    width: 100%;
+    height: 507px;
+}
+.container-foot-nav{
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.team-item{
+   
+    padding: 1rem;
+   margin-top: 80px;
+    text-align: center
+}
+.team-item h1{
+    padding-top: 26px;
+}
+.team-item h3{
+    padding-top: 26px;
+}
+.team-item p{
+    padding-top: 26px;
+}
+.container-text3{
+    background-image: url(img/bg4.png);
+    background-size: cover;
+    width: 100%;
+    height: 522px;
+}
+.content-text3{
+    width: 1200px;
+    
+    margin: 0 auto;
+    text-align: center;
+}
+.topic-text3{
+    padding-top: 79px;
+   
+   
+}
+.topic-text3 h3{
+    color: white;
+    font-size: 48px;
+    font-family: Serif;
+    font-style: oblique;
+    font-weight: normal;
+}
+.topic-text3 h1{
+    color: white;
+    padding-top: 10px;
+    font-size: 50px;
+
+}
+.topic-text3 p{
+    color: white;
+    padding-top: 10px;
+}
+.c-bt{
+    color: white;
+    background-color: rgb(244, 34, 103);
+    border-radius: 15px;
+    width: 148px;
+    height: 53px;
+    padding: 10px;
+    position: relative;
+    top: 54px;
+    
+}
+.c-bt a{
+    text-decoration: none;
+    color: white;
+    
+}
+.c-bt :focus{
+    color:white;
+    background-color: rgb(244, 34, 103);
+    box-shadow: 0px 0px 0px 1px rgb(244, 34, 103);
+    animation: anim-bt .3s forwards;
+}
+@keyframes  anim-bt{
+    10%{
+        box-shadow: 0px 0px 50px 20px rgb(243, 11, 11);
+    }
+}
+section{
+    width: 100%;
+    position: relative;
+    top: 1300px;
+}
+.container-text4{
+    width: 1200px;
+    margin: 0 auto;
+}
+.content-text4 h3{
+    font-size: 33.14px;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    padding-top: 80px;
+}
+.content-text4 h1{
+    font-size: 50px;
+
+}
+.content-text4 p{
+    font-size: 17px;
+    padding-top: 10px;
+}
+.content-box-text4 {
+    display: flex;
+    text-align: left;
+    margin-top: 49px;
+    font-size: 14px;
+}
+.bt-item-text4{
+    color: white;
+    background-color: rgb(244, 34, 103);
+    border-radius: 15px;
+    width: 148px;
+    height: 53px;
+    padding: 10px;
+    position: relative;
+    top: 54px;
+    
+}
+.bt-item-text4 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.bt-item-text4 :focus{
+    color:white;
+    background-color: rgb(244, 34, 103);
+    box-shadow: 0px 0px 0px 1px rgb(244, 34, 103);
+    animation: anim-bt .3s forwards;
+}
+@keyframes  anim-bt{
+    10%{
+        box-shadow: 0px 0px 50px 20px rgb(243, 11, 11);
+    }
+}
+.bt-item-text5{
+    color: white;
+    background-color: rgb(244, 34, 103);
+    border-radius: 15px;
+    width: 148px;
+    height: 53px;
+    padding: 10px;
+    position: relative;
+    top: 54px;
+    
+}
+.bt-item-text5 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.bt-item-text5 :focus{
+    color:white;
+    background-color: rgb(244, 34, 103);
+    box-shadow: 0px 0px 0px 1px rgb(244, 34, 103);
+    animation: anim-bt .3s forwards;
+}
+@keyframes  anim-bt{
+    10%{
+        box-shadow: 0px 0px 50px 20px rgb(243, 11, 11);
+    }
+}
+.clipyoutube{
+    float: right;
+    position: relative;
+    bottom: 450px;
+    left: 50px;
+}
+footer{
+    margin-top: 1400px;
+    background-image: url(img/bg5.png);
+    background-size: cover;
+    width: 100%;
+    height: 471px;
+}
+.container-footer-end{
+    width: 1200px;
+    margin: 0 auto;
+   
+   
+    
+}
+.logofooter1{
+margin-top: 200px;
+}
+.logofooter2{
+    margin-left: 200px;
+}
+.logofooter3{
+    margin-left: 200px;
+}
+.logofooter4{
+    margin-left: 200px;
+}
